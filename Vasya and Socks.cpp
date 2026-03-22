@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,m,cou=0,sum=0;
+    cin>>n>>m;
+  for(int i=1;m*i<=n;i++)
+  {
+      n++;
+  }
+cout<<n<<endl;
+}
